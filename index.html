@@ -103,6 +103,17 @@ E-mail: s_liu01@163.com <br />
 	<li><p>DPU-SSD direct access, bypassing bottleneck of CPU and DDR, enhancing system bandwidth.
 	</p></li>
 
+<p><b>IO Semantic Routing</b>
+</p>
+	
+	<li><p>Current storage systems face critical challenges, including long and convoluted critical IO paths, resulting in low IOPS and throughput. 
+		To address this, I have proposed an IO Anycast communication primitive. This approach leverages network switches to eliminate the IO triangular routing issue caused by data sharding, enabling single-hop direct access to the home storage node and significantly boosting system IOPS.
+	</p></li>
+	<li><p>This technology can be deployed in various storage systems such as NVMe over Fabrics, NFS, and S3, and is adaptable to different network environments including RoCE and TCP.
+	</p></li>
+	<li><p>The effectiveness of this technology has been validated in both the SPDK framework and commercial product environments.
+	</p></li>	
+
 </ul>
 	
 <h3>Publications </h3>
